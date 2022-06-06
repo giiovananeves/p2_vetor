@@ -5,7 +5,7 @@ public class Vetor {
         Scanner leitura = new Scanner(System.in);
         String nome[] = new String[5];
         for (int i=0; i < nome.length; i++){
-            System.out.println("Digitime um nome:");
+            System.out.println("Digite um nome:");
             nome[i]=leitura.next();
         }
         for (int i=0; i < nome.length; i++){
